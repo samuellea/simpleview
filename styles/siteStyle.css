@@ -1,0 +1,373 @@
+body {
+  min-height: 100vh;
+}
+
+.containerBox {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* carousel */
+.carouselContainer { 
+  width: 100%;
+  min-height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  min-height: 68vh;
+}
+
+.carouselImage {
+  max-height: 70vh;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.carousel .carousel-control-prev-icon {
+    background-image: url('../images/icon_gallery_arrow.svg');
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+ .carousel .carousel-control-next-icon {
+     background-image: url('../images/icon_gallery_arrow.svg');
+     transform: rotate(180deg);
+     width: 2.5rem;
+     height: 2.5rem;
+  }
+  
+/* navbar */
+.navbarContainer {
+  height: 23vh;
+}
+
+.navbar {
+  z-index: 999;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(27,127,203,1));
+  padding: 0px !important;
+}
+
+.Navbar-main {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Navbar-main .nav-item {
+  margin: 0px 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'LeagueSpartan-Bold';
+  font-size: 12px;
+}
+
+.Navbar-main .logo {
+  width: 40px;
+  margin: 0px 10px;
+}
+
+.flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar-main a {
+  color: white;
+  position: relative;
+  top: 3px;
+}
+
+.Navbar-main .menuIcon {
+  width: 40px;
+  margin: 0px 10px;
+  color: white;
+  font-size: 32px;
+}
+
+.searchContainer {
+  margin-left: auto;
+  color: white;
+  height: 50px;
+  width: 500px;
+  display: grid;
+  grid-template: 1fr / 90% 10%;
+  margin-right: 15px;
+}
+
+.searchInputContainer {
+  grid-area: 1/1/2/2;
+  height: 100%;
+}
+
+.searchIconContainer {
+  grid-area: 1/2/2/3;
+  height: 100%;
+}
+
+#searchInput {
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 80%;
+  padding: 5px;
+  color: #1B7FCB;
+  font-family: 'Poppins-ExtraLight';
+  float: right;
+  margin-top: 5px;
+}
+
+.inputHidden {
+  width: 0px;
+  visibility: hidden;
+  transition: 0.75s cubic-bezier(0.075, 0.82, 0.165, 1);
+  opacity: 0;
+}
+
+.inputVisible {
+  width: 90%;
+  opacity: 1;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.searchInput:focus {
+  border: 2px solid #6cbfff;
+  outline: none;
+}
+
+.searchIcon {
+  background-image: url('../images/icon_magnify.svg');
+  width: 2rem;
+  height: 2rem;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
+  width: 65vw;
+}
+
+.copyBanner {
+  color: white;
+  background-color: #1B7FCB;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.copyBanner h1 {
+  position: relative;
+  top: 6px;
+  font-size: 28px;
+}
+
+.textBox {
+  padding: 10px 0px;
+}
+
+.copyParagraph {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.copyParagraph p {
+  margin: 0;
+}
+
+.leagueSpartan {
+  font-family: 'LeagueSpartan-Bold';
+}
+
+.poppinsExtraLight {
+  font-family: 'Poppins-ExtraLight';
+}
+
+.featureCol {
+  height: 200px;
+  padding: 0px 0px 0px 0px !important;
+  position: relative;
+}
+
+.blockImg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+-webkit-transition: 0.75s linear;
+transition: 0.75s linear;
+}
+
+.blockImg:hover {
+   -webkit-filter: brightness(120%);
+           filter: brightness(120%);
+   -webkit-transition: 0.25s linear;
+   transition: 0.25s linear;
+ }
+
+.blockText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockImg:hover {
+  color: white;
+}
+
+#green:hover {
+  background-color: #96C11E;
+  color: white;
+  transition: 0.1s linear;
+}
+
+#green:hover h4 {
+  color: white !important;
+}
+
+#orange:hover {
+  background-color: #EF8512;
+  color: white;
+  transition: 0.1s linear;
+}
+
+#orange:hover h4 {
+  color: white !important;
+}
+
+#blue:hover {
+  background-color: #009DDE;
+  color: white;
+  transition: 0.1s linear;
+}
+
+#blue:hover h4 {
+  color: white !important;
+}
+
+#purple:hover {
+  background-color: #922DDA;
+  color: white;
+  transition: 0.1s linear;
+}
+
+#purple:hover h4 {
+  color: white !important;
+}
+
+.featureCol img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.featureCol .blockArrowContainer {
+  z-index: 9;
+  height: 100%;
+  width: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.blockArrow {
+  background-image: url('../images/img_block_arrow.svg');
+  transform: rotate(180deg);
+  width: 20px;
+  height: 20px;
+}
+
+.featureCol h4 {
+  font-family: 'LeagueSpartan-Bold';
+  width: 75%;
+  margin: 0 auto;
+}
+
+.featureCol p {
+  font-family: 'Poppins-ExtraLight';
+  font-size: 14px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.imageAndArrowContainer {
+  position: relative;
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url(./fonts/league-spartan/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: url('./fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+.row {
+  margin: 0px !important;
+}
+
+footer {
+  width: 100vw;
+  margin-top: 50px;
+}
+
+footer p {
+  padding: 10px;
+  float: left;
+  margin-top: 35px;
+  font-size: 14px;
+}
+
+footer img {
+  float: right;
+  margin-left: auto;
+  height: 100px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blockImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .featureCol .blockArrowContainer {
+    z-index: 9;
+    height: 15px;
+    width: 17px;
+    overflow: hidden;
+  }
+
+  .blockArrow {
+    background-image: url('../images/img_block_arrow.svg');
+    transform: rotate(270deg);
+    width: 20px;
+    height: 20px;
+  }
+ }

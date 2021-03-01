@@ -1,0 +1,200 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Site build</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" href="styles/siteStyle.css" />
+    <link rel="stylesheet/less" type="text/css" href="styles/styles.less" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="containerBox">
+
+        <div class="carouselContainer">
+
+            <!-- CAROUSEL  -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="carouselImage" src="./images/img_maingallery_couplemountains.jpg"
+                            alt="First slide" />
+                        <div class="centered leagueSpartan">Explore the breathtaking <br> mountain ranges</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carouselImage" src="./images/img_maingallery_manonrock.jpg" alt="First slide" />
+                        <div class="centered leagueSpartan">See what lies beyond<br> the beaten path</div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="navbarContainer">
+            <!-- NAVBAR  -->
+            <nav class="navbar navbar-dark">
+                <div class="Navbar-main" id="navbarNav">
+                    <div class="nav-item logo">
+                        <img src="./images/logo.svg" alt="Simpleview Logo">
+                    </div>
+                    <div class="nav-item menuIcon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="nav-item active">
+                        <span><a class="nav-link" href="#explore">EXPLORE</a></span>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#stay">STAY</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#experience">EXPERIENCE</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#travel">TRAVEL</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </div>
+                    <div class="searchContainer flexCentered">
+                        <div class="searchInputContainer">
+                            <input id="searchInput" class="inputHidden" type="text"></input>
+                        </div>
+                        <div class="searchIconContainer flexCentered">
+                            <span class="searchIcon" onclick="toggleSearchInput()"></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <!-- COPY BANNER -->
+    <div class="copyBanner">
+        <div class="copyHeader textBox" id="#textBox">
+            <h1 class="leagueSpartan">Welcome to Simpleview Europe</h1>
+        </div>
+        <div class="copyParagraph textBox" style="width: 50vw;">
+            <p class="poppinsExtraLight">WE HAVE BEEN PROVIDING INNOVATIVE, PRACTICAL TECHNOLOGY SOLUTIONS TO <br>
+                DESTINATIONS
+                ACROSS EUROPE FOR TWENTY YEARS</p>
+        </div>
+        <div class="copyParagraph textBox" style="width: 75vw;">
+            <p class="poppinsExtraLight">New Mind | tellUs is a pan-European digital agency specialising in the tourism
+                sector. Since the late 1990s we have been <br> developing solutions for a wide range of Destination
+                Management Organisations, working with National and Regional <br> Tourist Boards, City Councils and
+                Tourism
+                Associations across Europe, <br> molestiae non recusandae.</p>
+        </div>
+    </div>
+
+    <!-- FEATURES GRID -->
+    <div class="featuresGrid">
+        <div class="row">
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockImg">
+                <img src="./images/img_block_explore.jpg" id="#blockImage" />
+                <div class="blockArrowContainer">
+                    <span class="blockArrow"></span>
+                </div>
+            </div>
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockText" id="green">
+                <div class="featureCopyContainer">
+                    <h4 style="color: #96C11E">Explore</h4>
+                    <p>Proin porttitor, nils eu bibendum pharetra, rises beloit consectetur bequest, vita hendrerit
+                        mauris
+                        augue
+                        sed telleus.</p>
+                </div>
+            </div>
+
+
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockImg">
+                <img src="./images/img_block_experience.jpg" id="#blockImage" />
+                <div class="blockArrowContainer">
+                    <span class="blockArrow"></span>
+                </div>
+            </div>
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockText" id="orange">
+                <div class="featureCopyContainer">
+                    <h4 style="color: #EF8512">Experience</h4>
+                    <p>Proin porttitor, nils eu bibendum pharetra, rises beloit consectetur bequest, vita hendrerit
+                        mauris
+                        augue
+                        sed telleus.</p>
+                </div>
+            </div>
+
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockText" id="blue">
+                <div class="featureCopyContainer">
+                    <h4 style="color: #009DDE">Travel</h4>
+                    <p>Proin porttitor, nils eu bibendum pharetra, rises beloit consectetur bequest, vita hendrerit
+                        mauris
+                        augue
+                        sed telleus.</p>
+                </div>
+            </div>
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockImg">
+                <img src="./images/img_block_travel.jpg" id="#blockImage" />
+                <div class="blockArrowContainer">
+                    <span class="blockArrow"></span>
+                </div>
+            </div>
+
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockText" id="purple">
+                <div class="featureCopyContainer">
+                    <h4 style="color: #922DDA">Places to Stay</h4>
+                    <p>Proin porttitor, nils eu bibendum pharetra, rises beloit consectetur bequest, vita hendrerit
+                        mauris
+                        augue
+                        sed telleus.</p>
+                </div>
+            </div>
+            <div class="featureCol col-sm-12 col-md-6 col-lg-3 blockImg">
+                <img src="./images/img_block_placestostay.jpg" id="#blockImage" />
+                <div class="blockArrowContainer">
+                    <span class="blockArrow"></span>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./javascript/site.js"></script>
+
+        <footer>
+            <p>© Copyright Simpleview 2021</p>
+            <div class="logo">
+                <img src="https://vectorlogoseek.com/wp-content/uploads/2020/01/simpleview-vector-logo.png" />
+            </div>
+        </footer>
+</body>
+
+</html>

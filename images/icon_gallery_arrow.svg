@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.1-dev (bc69992, 2020-04-15)"
+   sodipodi:docname="icon_gallery_arrow.svg"
+   version="1.1"
+   viewBox="0 0 26.06 27.07"
+   data-name="Layer 2"
+   id="Layer_2">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>icon_gallery_arrow</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     inkscape:current-layer="Layer_2"
+     inkscape:window-maximized="0"
+     inkscape:window-y="634"
+     inkscape:window-x="0"
+     inkscape:cy="9.2463762"
+     inkscape:cx="13.025"
+     inkscape:zoom="19.985223"
+     showgrid="false"
+     id="namedview15"
+     inkscape:window-height="749"
+     inkscape:window-width="1267"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title10">icon_gallery_arrow</title>
+  <path
+     style="fill:#ffffff"
+     id="path12"
+     d="M0 13.48 26.05 0 22.04 13.91 26.05 27.07 0 13.48z" />
+</svg>
